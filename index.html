@@ -1,129 +1,256 @@
 <!DOCTYPE html>
-
 <html lang="pt-BR">
-
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="21 rfSoftwares">
-    <meta http-equiv="refresh" content="t=5">
+    <title>Prosperare Acessoria e Consultoria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style/style.css">
-    <link rel="icon" href="C:\21rfSoftwares\21rfSoftwares_projeto_sites_full\assets\Logo 21 rfSoft.png" type="image/png">
-
-    <title>21 rfSoftwares</title>
-
-   
-    </head>
+    <link rel="icon" href="assets/prosperare.png" type="image/png">
    
 
-    <body>
 
-         <header>
-            Projeto 01 com HTML & CSS 
-        </header>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="assets/logo_logo.png" alt="Prosperare" width="180">
+            </a>
+            
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#sobre" class="nav-link active">Sobre Nós</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#metodologia" class="nav-link">Metodologia</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <article>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Transformando ideias em resultados</h1>
+                <p class="hero-text">Assessoria especializada em projetos e captação de recursos para seu negócio ou organização</p>
+                <div class="hero-actions">
+                    <a href="#contato" class="btn btn-primary">Fale conosco</a>
+                    <a href="#servicos" class="btn btn-outline">Nossos serviços</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/missao.png" alt="Equipe Prosperare" loading="lazy">
+            </div>
+        </div>
+    </section>
 
-            <section id="title-section">            
+    <section id="sobre" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa História</h2>
+                <p class="section-subtitle">Conheça a trajetória da Prosperare</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A Prosperare Assessoria e Consultoria é uma empresa especializada em assessoria, consultoria, elaboração de projetos e captação de recursos, com atuação em organizações públicas, privadas e terceiro setor.</p>
+                    <p>Nossos técnicos além de ampla experiência, possuem formação correspondente para o pleno suporte ao cliente.</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/img_missao.png" alt="Equipe Prosperare" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <h1>
-                    Getting started with HTML 5 & CSS
-                </h1>
-                             
-            </section>
-
-            <section class="hero-image">
-                <img src="assets/front-end-developer.png" alt="imagem de front-end developer">
-            </section>
-              
-            <section id="content-section">
-
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="https://www.google.com.br" target="blank">Link de acesso Google</a> .
-                     Dicta dolore laudantium vel eius! Itaque, aliquid harum delectus ratione, 
-                    nam fuga id dignissimos est similique libero unde praesentium molestiae expedita tempora?                    
-                </p> 
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dicta dolore laudantium vel eius! Itaque, aliquid harum delectus ratione, 
-                    nam fuga id dignissimos est similique libero unde praesentium molestiae expedita tempora?   
-                </p>       
-                   
-                <h2 class="uppercase">
-                    Dignissimos est similique
-                </h2>
-
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolore laudantium vel eius! Itaque, aliquid harum delectus ratione, 
-                    nam fuga id dignissimos est similique libero unde praesentium molestiae expedita tempora? 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolore laudantium vel eius! Itaque, aliquid harum delectus ratione.
-                                      
-                </p> 
-        
-                <ol>
-                    <li>Lista </li>
-                    <li>Lista </li>
-                    <li>Lista </li>
-                </ol>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolore laudantium vel eius! Itaque, aliquid harum delectus ratione, 
-                    nam fuga id dignissimos est similique libero unde praesentium molestiae expedita tempora?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolore laudantium vel eius! Itaque, aliquid harum delectus ratione, 
-                    nam fuga id dignissimos est similique libero unde praesentium molestiae expedita tempora?     
-                </p>
-                
-                <iframe class="youtube-video"
-                    width="560" height="315" src="https://www.youtube.com/embed/kB5e-gTAl_s?si=e1P5-hA0XUNdF_kI" 
-                    title="YouTube video player" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen>
-                </iframe>
-        
-                <video controls width="250" class="youtube-video-2">
-                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                    Seu navegador não suporta vídeos.
-                </video> 
-                
-               <div class="links-lista">
-                    <h3 class="uppercase">Links</h3>
-                    <ul>
-                        <li><a href="https://www.figma.com/design/2a51n9kubXRIFs5jlNEi4V/Blog-Post--Project-1-?node-id=3-2&t=mH2wLFpOjLQQQEfj-0" 
-                        target="blank">Figma</a></li>
-                        <li><a href="https://www.google.com.br" target="blank">Google</a> </li>
-                        <li><a href="https://www.youtube.com" target="blank">Youtube</a> </li>
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Serviços Especializados</h2>
+                <p class="section-subtitle">Soluções completas para seu projeto</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/law.png" alt="Leis de incentivo" width="48">
+                    </div>
+                    <h3>Leis de Incentivo Fiscal</h3>
+                    <p>Atuação em todas as principais leis de incentivo para cultura, esporte, saúde e terceiro setor.</p>
+                    <ul class="service-features">
+                        <li>PRONON/PRONAS</li>
+                        <li>Lei Rouanet</li>
+                        <li>Lei do Esporte</li>
+                        <li>FIA/Idoso</li>
                     </ul>
-               </div>
-        
-            </section>
-    
-        </article>
-       
-        <footer>
-             <section id="footer-redes">           
-
-                <h5>
-                    Contatos e Redes Sociais
-                </h5>                
-                
-                <div class="share-post uppercase footer">           
-                    <a href="https://www.instagram.com/raffaeldasillva/" target="blank"> <img src="assets/instagran_icon.png" alt="Instagram Icon" width="20" height="20"></a>                  
-                    <a href="https://www.linkedin.com/in/rafael-da-silva-rfs-desenvolvedor/" target="blank"><img src="assets/Linkedin_Icon.png" alt="Linkedin Icon" width="20" height="20"></a>
-                    <a href="https://wa.me/5554996772904?text=Olá%2C%20vim%20pelo%20seu%20portfólio!" target="blank"> <img src="assets/wathsapp_icon.png" alt="WhatsApp Icon" width="20" height="20"></a>
-                    <a href="https://github.com/RafaelDaSilva1984" target="blank"> <img src="assets/github_icon.png" alt="GitHub Icon" width="20" height="20"></a>
-               
+                    <a href="#" class="service-link">Saiba mais →</a>
                 </div>
                 
-                <div class="copyright">
-               
-                <img src="assets/Logo 21 rfSoft.png" alt="Logo 21rfSoftwares"  width="45" height="50">
-              
-                <p>© 2025 21 rfSoftwares. All rights reserved.</p>                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/project.png" alt="Elaboração de projetos" width="48">
+                    </div>
+                    <h3>Elaboração de Projetos</h3>
+                    <p>Desenvolvimento de projetos personalizados de acordo com as necessidades do cliente.</p>
+                    <ul class="service-features">
+                        <li>Diagnóstico inicial</li>
+                        <li>Planejamento estratégico</li>
+                        <li>Redação técnica</li>
+                        <li>Adequação às normas</li>
+                    </ul>
+                    <a href="#" class="service-link">Saiba mais →</a>
                 </div>
                 
-            </section>
-        </footer>
-        
-    </body>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/funding.png" alt="Captação de recursos" width="48">
+                    </div>
+                    <h3>Captação de Recursos</h3>
+                    <p>Estratégias eficientes para garantir os recursos necessários para seu projeto.</p>
+                    <ul class="service-features">
+                        <li>Plano de captação</li>
+                        <li>Apresentação a investidores</li>
+                        <li>Negociação estratégica</li>
+                        <li>Acompanhamento</li>
+                    </ul>
+                    <a href="#" class="service-link">Saiba mais →</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="metodologia" class="mission-section">
+        <div class="section-header">
+                <h2 class="section-title">Nossa Metodologia</h2>
+                <p class="section-subtitle">Nossos trabalhos são fundamentos em nossos Princípios</p>
+        </div>
+        <div class="container">
+            <div class="mission-cards">
+                <div class="mission-card">
+                    <h3>Missão</h3>
+                    <p>Desenvolver serviços de assessoria, consultoria, elaboração de projetos, captação de recursos e capacitação, visando contribuir para melhores resultados dos diversos setores da Sociedade, com responsabilidade e excelência.</p>
+                </div>
+                <div class="mission-card">
+                    <h3>Visão</h3>
+                    <p>Ser reconhecida como uma empresa de excelência em assessoria e consultoria, com atuação em todo o território nacional, contribuindo para o desenvolvimento sustentável da sociedade.</p>
+                </div>
+                <div class="mission-card">
+                    <h3>Valores</h3>
+                    <ul>
+                        <li>Ética e transparência</li>
+                        <li>Excelência profissional</li>
+                        <li>Compromisso com resultados</li>
+                        <li>Inovação constante</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">Estamos prontos para ajudar seu projeto</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <address>
+                        <p><img src="assets/google-maps.png" alt="Endereço" width="20" height="20"> Rua Exemplo, 123 - Centro, Cidade/RS</p>
+                        <p><img src="assets/email.png" alt="Email"width="20" height="20"> rfsrafaelsilva@gmail.com</p>
+                        <p><img src="assets/phone-call.png" alt="Telefone" width="20" height="20"> (54) 996206674</p>
+                    </address>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/prosperareassessoria/" target="blank">
+                            <img src="assets/instagran_icon.png" alt="Instagram" width="32">
+                        </a>
+                        <a href="https://wa.me/5554996206674" target="blank">
+                            <img src="assets/wathsapp_icon.png" alt="WhatsApp" width="32">
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/myzjzjkb" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="nome" placeholder="Seu nome completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Seu melhor email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="telefone" placeholder="Seu telefone (com DDD)">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="mensagem" placeholder="Como podemos ajudar você?" rows="5" required></textarea>
+                    </div>
+                    
+                    <!-- Configurações ocultas do Formspree -->
+                    <input type="hidden" name="_subject" value="Novo contato do site Prosperare">
+                    <input type="hidden" name="_language" value="pt">
+                    <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+                    <input type="text" name="_gotcha" style="display:none">
+                    
+                    <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/logo_logo.png" alt="Prosperare" width="160" class="footer-logo">
+                    <p class="footer-about">Especialistas em assessoria, consultoria e captação de recursos para organizações públicas, privadas e terceiro setor.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#metodologia">Metodologia</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Leis de Incentivo</a></li>
+                        <li><a href="#">Elaboração de Projetos</a></li>
+                        <li><a href="#">Captação de Recursos</a></li>
+                        <li><a href="#">Prestação de Contas</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <address class="footer-contact">
+                        <p><img src="assets/icons/map-pin.svg" alt=""> Rua Exemplo, 123 - Centro</p>
+                        <p><img src="assets/icons/mail.svg" alt=""> contato@prosperare.com.br</p>
+                        <p><img src="assets/icons/phone.svg" alt=""> (54) 996206674</p>
+                    </address>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2024 Prosperare. Todos os direitos reservados.</p>
+                <p>Desenvolvido por <a href="https://www.linkedin.com/in/rafael-da-silva-rfs-desenvolvedor/" target="blank">21 rfSoftwares</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
