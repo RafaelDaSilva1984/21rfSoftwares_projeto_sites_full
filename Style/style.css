@@ -39,7 +39,9 @@ img:hover {
     padding: 20px 0;
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1000;   
+    
+    
 }
 
 .logo img {
@@ -513,7 +515,7 @@ section {
   margin-top: 5px;
   width: 100%;
   overflow: hidden;
-  background-color: #2b2b2b; /* cor de fundo combinando com o rodapé */
+  background-color: rgba(0, 0, 0, 0.1); /* fundo com transparência */
   padding: 20px 0;
 }
 
@@ -524,13 +526,16 @@ section {
 
 .carousel-track {
   display: flex;
-  animation: scroll 75s linear infinite;
+  animation: scroll 45s linear infinite;
   width: max-content;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
 }
 
 .carousel-item {
+   scroll-snap-align: start;
   flex: 0 0 auto;
-  margin: 0 40px;
+  margin-right: 16px;
 }
 
 .carousel-item img {
