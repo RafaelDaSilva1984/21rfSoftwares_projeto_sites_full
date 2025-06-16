@@ -34,13 +34,13 @@ img:hover {
 
 /* ===== HEADER ===== */
 .main-header {
-    background-color: #b33975; /* rosa escuro */
+    background-color: rgba(179, 57, 117,0.95); /* rosa escuro */
     color: #fff;
     padding: 20px 0;
     position: sticky;
     top: 0;
     z-index: 1000;   
-    
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
     
 }
 
@@ -192,7 +192,10 @@ section {
     color: #666666;
 }
 .about-image {
-    margin-left: 675px;
+    max-width: 100%;
+    display: block;
+    justify-items: center;
+  
 }
 
 /* ===== SERVICES ===== */
@@ -493,7 +496,7 @@ section {
         text-align: center;
     }
 
-    .hero-image {
+f    .hero-image {
         margin-top: 30px;
         text-align: center;
     }
@@ -505,7 +508,9 @@ section {
     .mission-cards {
         flex-direction: column;
         gap: 25px;
+        flex-direction: row-reverse;
     }
+    
 
     .contact-section .contact-content {
         flex-direction: column;
